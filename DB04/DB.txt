@@ -1,0 +1,50 @@
+[개념정리]
+1. 정형데이터란?
+저장할 데이터(항목)이 정해져있는 데이터
+2. DBMS란?
+DB를 관리해주는 프로그램
+3. 당신이 알고있는 DBMS의 종류 2가지 이상
+오라클, mySQL
+4. SQL은 무엇의 약자?
+체계적으로 정리된 명령문의 모음(Structured Query Language)
+5. SQL의 종류 3가지 분류
+DDL, DCL, DML
+6. CRUD는 무엇의 약자?
+Create, Read, Update, Delete
+7. 당신이 알고있는 DB클라이언트 프로그램은?
+DBeaver
+8. DML중 데이터를 넣을 때 사용하는 구문은?
+insert
+9. DML중 데이터를 검색할 때 사용하는 구문은?
+select
+
+------------------------------------------------------------------------------
+2023년 03월 03일
+
+1. SQL을 3가지로 구분, 각각을 간단 설명, 예를 들어보세요.
+DDL : create, alter, drop -> schema design
+DCL : insert, select, update, delete -> CRUD
+DML : create user, drop user 계정생성, 백업/복구
+2. DML로 할 수 있는 조작 4가지를 부르는 말
+CRUD 크루드
+3. DML의 조작 4가지에 해당하는 각 SQL문
+CREATE, SELECT, UPDATE, DELETE
+4. 정형데이터베이스란?
+스키마 구조를 가지고 있는 데이터
+5. 스키마란?
+데이터를 저장하기 위한 틀 + 제약조건
+6. 제약조건이란? 예 1개 이상
+입력 데이터의 제약조건을 걸어 해당되지 않는 데이터는 입력되지 않음
+NOT NULL, NULL 값을 받아들이지 않음
+7. primary key를 왜 설정하는가?
+개체 무결성/not null, unique 해주는 기능
+8. foreign key를 왜 설정하는가?
+참조 무결성/ 문제가 있는 데이터가 들어가지 않게 자동 체크
+9. 저장할 대상을 부르는 말? 한글/영어
+개체/엔티티 Entity
+10. varchar2와 char의 차이
+가변, 불변
+11. join을 왜 하는가?
+검색할 내용이 여러 테이블을 합해서 해야하는 경우
+12. join의 3가지 종류 비교
+inner join/outer join(left, right)
